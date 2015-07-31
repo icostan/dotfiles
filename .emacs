@@ -1,3 +1,7 @@
+;;; package --- Summary Ruby
+;;; Code:
+;;; Commentary:
+
 ;; Package Manager
 (require 'cask "/usr/local/share/emacs/site-lisp/cask.el")
 (cask-initialize)
@@ -34,19 +38,25 @@
 (global-set-key (kbd "C-x <right>") 'windmove-right)
 (global-set-key (kbd "C-x <left>") 'windmove-left)
 
+;; Display continuous lines
+(setq-default truncate-lines nil)
+(setq-default truncate-partial-width-windows nil)
+
+;; Spaces instead of tabs
+(setq-default indent-tabs-mode nil)
+
+;; y/n instead of yes/no
+(defalias 'yes-or-no-p 'y-or-n-p)
+
+;; Disable backups and autosaving
+(setq backup-inhibited t)
+(setq auto-save-default nil)
+
 ;; Uniquify buffer names
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'forward)
 
 ;; File Associations
-(add-to-list 'auto-mode-alist '("Rakefile$" . ruby-mode))
-(add-to-list 'auto-mode-alist '("Gemfile$" . ruby-mode))
-(add-to-list 'auto-mode-alist '("Guardfile$" . ruby-mode))
-(add-to-list 'auto-mode-alist '("Berksfile$" . ruby-mode))
-(add-to-list 'auto-mode-alist '("Vagrantfile" . ruby-mode))
-(add-to-list 'auto-mode-alist '("\\.rake$" . ruby-mode))
-(add-to-list 'auto-mode-alist '("\\.rabl$" . ruby-mode))
-(add-to-list 'auto-mode-alist '("\\.gemspec$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . html-mode))
 (add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
 (add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
@@ -94,7 +104,48 @@
 ;; git
 (require 'magit)
 (global-set-key (kbd "C-c m") 'magit-status)
+(setq magit-last-seen-setup-instructions "1.4.0")
+
+;; auto-complete
+(setq ac-ignore-case nil)
+(setq ac-auto-show-menu t)
+(setq ac-auto-start t)
+(setq ac-quick-help-height 30)
+(ac-config-default)
+(global-set-key (kbd "C-:") 'ac-complete-with-helm)
+(define-key ac-complete-mode-map (kbd "C-:") 'ac-complete-with-helm)
 
 ;; flycheck
 (add-hook 'after-init-hook 'global-flycheck-mode)
 (global-set-key (kbd "C-c r a") 'rubocop-autocorrect-current-file)
+
+;; anzu - shows a count of search matches in the mode-line
+(require 'anzu)
+(global-anzu-mode +1)
+(global-set-key (kbd "M-%") 'anzu-query-replace)
+(global-set-key (kbd "C-M-%") 'anzu-query-replace-regexp)
+
+;; goto-chg - an easy way to jump to my last edit
+(require 'goto-chg)
+(global-set-key (kbd "C-,") 'goto-last-change)
+(global-set-key (kbd "C-.") 'goto-last-change-reverse)
+
+;; fullframe - display next command in full frame
+(require 'fullframe)
+(fullframe magit-status magit-mode-quit-window nil)
+
+;; discover - an easy way to learn more about Emacs
+(require 'discover)
+(global-discover-mode 1)
+
+;; Cucumber
+(require 'feature-mode)
+(setq feature-use-rvm t)
+(setq feature-cucumber-command "cucumber {options} {feature}")
+(add-to-list 'auto-mode-alist '("\.feature$" . feature-mode))
+
+;; Load custom
+(load "~/.emacs.d/ruby.el")
+(load "~/.emacs.d/functions.el")
+
+;;; .emacs ends here
