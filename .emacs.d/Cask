@@ -1,5 +1,5 @@
 (source gnu)
-;;(source melpa-stable)
+;; (source melpa-stable)
 (source melpa)
 
 (depends-on "cask")
@@ -10,16 +10,10 @@
 (depends-on "flycheck-cask")
 (depends-on "magit")
 (depends-on "multiple-cursors")
-(depends-on "projectile")
 (depends-on "s")
 (depends-on "yasnippet")
-(depends-on "helm")
-(depends-on "helm-dash")
-(depends-on "helm-ag")
-(depends-on "helm-projectile")
-(depends-on "monokai-theme")
-(depends-on "exec-path-from-shell")
-(depends-on "magit")
+(depends-on "exec-path-from-shell") ;; init PATH in emacs shell
+(depends-on "magit") ;; git mode
 (depends-on "json-mode")
 (depends-on "yaml-mode")
 (depends-on "markdown-mode")
@@ -27,9 +21,43 @@
 (depends-on "haml-mode")
 (depends-on "css-mode")
 (depends-on "feature-mode")
+(depends-on "terraform-mode")
+(depends-on "2048-game")
+(depends-on "sr-speedbar") ;; speedbar navigation within current frame
+(depends-on "project-explorer") ;; source navigation
+(depends-on "anzu") ;; shows a count of search matches in the mode-line
+(depends-on "goto-chg") ;; an easy way to jump to my last edit
+(depends-on "fullframe") ;; display next command in full frame
+(depends-on "haskell-mode")
+
+;; themes
+(depends-on "monokai-theme")
+
+;; helm
+(depends-on "helm")
+(depends-on "helm-dash")
+(depends-on "helm-ag")
+
+;; projectile
+(depends-on "projectile")
+(depends-on "projectile-speedbar")
+(depends-on "helm-projectile")
+
+;; auto completion
+(depends-on "auto-complete")
+(depends-on "ac-helm")
+
+;; ruby mode
+(depends-on "robe")
 (depends-on "rvm")
 (depends-on "rubocop")
-(depends-on "2048-game")
-(depends-on "sr-speedbar")
-(depends-on "projectile-speedbar")
-(depends-on "flycheck")
+(depends-on "ruby-refactor")
+(depends-on "ruby-hash-syntax")
+(depends-on "ruby-tools")
+(depends-on "ruby-guard")
+(depends-on "ruby-end")
+(depends-on "rspec-mode")
+
+
+;; (depends-on "whitespace") ;; display whitespace marks
+;; (depends-on "discover") ;; an easy way to learn more about Emacs
