@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+#name : center
+# --
+%center $0
