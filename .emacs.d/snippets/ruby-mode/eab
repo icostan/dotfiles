@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: eab
+# key: eab
+# binding: direct-keybinding
+# --
+each do |${e}|
+  $0
+end
