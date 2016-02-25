@@ -1,0 +1,14 @@
+/Users/icostan/Work/actihunt/docker-compose.yml
+/Users/icostan/Work/actihunt/#docker-compose.yml#
+/Users/icostan/Work/actihunt/config/mongoid.yml
+/Users/icostan/Work/actihunt/config/#mongoid.yml#
+/Users/icostan/Work/actihunt/config/initializers/redis.rb
+/Users/icostan/Work/actihunt/config/initializers/#redis.rb#
+/Users/icostan/Work/actihunt/Dockerfile
+/Users/icostan/Work/actihunt/#Dockerfile#
+/Users/icostan/Work/actihunt/config/initializers/resque.rb
+/Users/icostan/Work/actihunt/config/initializers/#resque.rb#
+/Users/icostan/Work/actihunt/lib/tasks/resque.rake
+/Users/icostan/Work/actihunt/lib/tasks/#resque.rake#
+/Users/icostan/Work/actihunt/Gemfile
+/Users/icostan/Work/actihunt/#Gemfile#

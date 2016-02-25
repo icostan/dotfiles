@@ -1,0 +1,147 @@
+[13:42:38] I main                  **** New Client Connected ****
+[13:42:38] I CSS.Watcher          Update project: /Users/syk/Work/zuppler/posaas
+[13:42:39] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/vendor/assets/bower_components/modernizr/test/caniuse_files/style.css
+[13:42:39] E Watcher.Parser       Can't parse selector: "
+
+#intro dt::after "
+[13:42:39] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/tmp/rubycritic/assets/stylesheets/prettify.custom_theme.css
+[13:42:39] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/tmp/rubycritic/assets/stylesheets/application.css
+[13:42:39] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/node_modules/bower/node_modules/handlebars/coverage/lcov-report/prettify.css
+[13:42:39] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/vendor/assets/bower_components/modernizr/test/qunit/qunit.css
+[13:42:39] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/node_modules/bower/node_modules/cardinal/node_modules/redeyed/examples/browser/index.css
+[13:42:39] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/vendor/assets/bower_components/zuppler-bootstrap-theme/dist/styles/zuppler-theme.css
+[13:42:39] E Watcher.Parser       Can't parse selector: "
+
+audio:not([controls]) "
+[13:42:39] E Watcher.Parser       Can't parse selector: "
+
+button::-moz-focus-inner, input::-moz-focus-inner "
+[13:42:39] E Watcher.Parser       Can't parse selector: "
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button "
+[13:42:39] E Watcher.Parser       Can't parse selector: "
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration "
+[13:42:39] E Watcher.Parser       Can't parse selector: "
+  .form-control::-moz-placeholder "
+[13:42:39] E Watcher.Parser       Can't parse selector: "
+  .form-control::-webkit-input-placeholder "
+[13:42:39] E Watcher.Parser       Can't parse selector: "
+
+.has-feedback label ~ .form-control-feedback "
+[13:42:39] E Watcher.Parser       Can't parse selector: "
+.has-feedback label.sr-only ~ .form-control-feedback "
+[13:42:39] E Watcher.Parser       Can't parse selector: "
+
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) "
+[13:42:39] E Watcher.Parser       Can't parse selector: "
+  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) "
+[13:42:39] E Watcher.Parser       Can't parse selector: "
+
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn "
+[13:42:39] E Watcher.Parser       Can't parse selector: "
+    .navbar-right ~ .navbar-right "
+[13:42:39] E Watcher.Parser       Can't parse selector: "
+
+.panel .nav-pills > li:not(.active) > a:hover "
+[13:42:39] I CSS.Watcher          Update done.
+[13:42:39] I CSS.Watcher          Total for /Users/syk/Work/zuppler/posaas:
+[13:42:39] I CSS.Watcher           Classes: 958, ids: 10
+[13:43:51] I main                  **** New Client Connected ****
+[13:43:51] I CSS.Watcher          Update project: /Users/syk/Work/zuppler/posaas
+[13:43:51] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/vendor/assets/bower_components/modernizr/test/caniuse_files/style.css
+[13:43:51] E Watcher.Parser       Can't parse selector: "
+
+#intro dt::after "
+[13:43:51] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/tmp/rubycritic/assets/stylesheets/prettify.custom_theme.css
+[13:43:51] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/node_modules/bower/node_modules/handlebars/coverage/lcov-report/prettify.css
+[13:43:51] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/tmp/rubycritic/assets/stylesheets/application.css
+[13:43:51] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/vendor/assets/bower_components/modernizr/test/qunit/qunit.css
+[13:43:51] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/node_modules/bower/node_modules/cardinal/node_modules/redeyed/examples/browser/index.css
+[13:43:51] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/vendor/assets/bower_components/zuppler-bootstrap-theme/dist/styles/zuppler-theme.css
+[13:43:51] E Watcher.Parser       Can't parse selector: "
+
+audio:not([controls]) "
+[13:43:51] E Watcher.Parser       Can't parse selector: "
+
+button::-moz-focus-inner, input::-moz-focus-inner "
+[13:43:51] E Watcher.Parser       Can't parse selector: "
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button "
+[13:43:51] E Watcher.Parser       Can't parse selector: "
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration "
+[13:43:51] E Watcher.Parser       Can't parse selector: "
+  .form-control::-moz-placeholder "
+[13:43:51] E Watcher.Parser       Can't parse selector: "
+  .form-control::-webkit-input-placeholder "
+[13:43:51] E Watcher.Parser       Can't parse selector: "
+
+.has-feedback label ~ .form-control-feedback "
+[13:43:51] E Watcher.Parser       Can't parse selector: "
+.has-feedback label.sr-only ~ .form-control-feedback "
+[13:43:51] E Watcher.Parser       Can't parse selector: "
+
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) "
+[13:43:51] E Watcher.Parser       Can't parse selector: "
+  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) "
+[13:43:52] E Watcher.Parser       Can't parse selector: "
+
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn "
+[13:43:52] E Watcher.Parser       Can't parse selector: "
+    .navbar-right ~ .navbar-right "
+[13:43:52] E Watcher.Parser       Can't parse selector: "
+
+.panel .nav-pills > li:not(.active) > a:hover "
+[13:43:52] I CSS.Watcher          Update done.
+[13:43:52] I CSS.Watcher          Total for /Users/syk/Work/zuppler/posaas:
+[13:43:52] I CSS.Watcher           Classes: 958, ids: 10
+[13:44:24] I main                  **** New Client Connected ****
+[13:44:24] I CSS.Watcher          Update project: /Users/syk/Work/zuppler/posaas
+[13:44:24] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/vendor/assets/bower_components/zuppler-bootstrap-theme/dist/styles/zuppler-theme.css
+[13:44:24] E Watcher.Parser       Can't parse selector: "
+
+audio:not([controls]) "
+[13:44:24] E Watcher.Parser       Can't parse selector: "
+
+button::-moz-focus-inner, input::-moz-focus-inner "
+[13:44:24] E Watcher.Parser       Can't parse selector: "
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button "
+[13:44:24] E Watcher.Parser       Can't parse selector: "
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration "
+[13:44:24] E Watcher.Parser       Can't parse selector: "
+  .form-control::-moz-placeholder "
+[13:44:24] E Watcher.Parser       Can't parse selector: "
+  .form-control::-webkit-input-placeholder "
+[13:44:24] E Watcher.Parser       Can't parse selector: "
+
+.has-feedback label ~ .form-control-feedback "
+[13:44:24] E Watcher.Parser       Can't parse selector: "
+.has-feedback label.sr-only ~ .form-control-feedback "
+[13:44:24] E Watcher.Parser       Can't parse selector: "
+
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) "
+[13:44:24] E Watcher.Parser       Can't parse selector: "
+  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) "
+[13:44:24] E Watcher.Parser       Can't parse selector: "
+
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn "
+[13:44:24] E Watcher.Parser       Can't parse selector: "
+    .navbar-right ~ .navbar-right "
+[13:44:24] E Watcher.Parser       Can't parse selector: "
+
+.panel .nav-pills > li:not(.active) > a:hover "
+[13:44:25] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/node_modules/bower/node_modules/cardinal/node_modules/redeyed/examples/browser/index.css
+[13:44:25] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/vendor/assets/bower_components/modernizr/test/qunit/qunit.css
+[13:44:25] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/tmp/rubycritic/assets/stylesheets/application.css
+[13:44:25] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/node_modules/bower/node_modules/handlebars/coverage/lcov-report/prettify.css
+[13:44:25] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/tmp/rubycritic/assets/stylesheets/prettify.custom_theme.css
+[13:44:25] I CSS.Watcher           (Re)parse css: /Users/syk/Work/zuppler/posaas/vendor/assets/bower_components/modernizr/test/caniuse_files/style.css
+[13:44:25] E Watcher.Parser       Can't parse selector: "
+
+#intro dt::after "
+[13:44:25] I CSS.Watcher          Update done.
+[13:44:25] I CSS.Watcher          Total for /Users/syk/Work/zuppler/posaas:
+[13:44:25] I CSS.Watcher           Classes: 958, ids: 10

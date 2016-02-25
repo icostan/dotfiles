@@ -1,0 +1,7 @@
+;; Object cache
+;; EIEIO PERSISTENT OBJECT
+(gh-cache "cache"
+  :file "cache"
+  :version "0.3/gh-3"
+  :entries #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8 data (("/repos/zuppler/posaas/pulls" "GET" "722fae479e2c7b3b46f63bdb57a80034e628c752") [object gh-cache-entry "gh-cache-entry" 1450279129.8412 nil nil "\"1678f1b81901779b7f59f866f05b800e\"" nil] ("/repos/zuppler/zuppler-domain/pulls" "GET" "722fae479e2c7b3b46f63bdb57a80034e628c752") [object gh-cache-entry "gh-cache-entry" 1451292886.233394 nil nil nil nil] ("/repos/iuliancostan/3dp/pulls" "GET" "722fae479e2c7b3b46f63bdb57a80034e628c752") [object gh-cache-entry "gh-cache-entry" 1452605079.894047 nil nil nil nil]))
+  :timestamp 1456429677.542194)
