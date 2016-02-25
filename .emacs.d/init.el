@@ -62,7 +62,11 @@
 (require 'fullframe)
 (fullframe magit-status magit-mode-quit-window nil)
 (fullframe magit-log magit-mode-quit-window nil)
+<<<<<<< HEAD
 ;; (fullframe yas-describe-tables quit-window nil)
+=======
+(fullframe yas-describe-tables quit-window nil)
+>>>>>>> c1540d94d61224f0399f54e6235010dcc4dde6a9
 
 ;; electrics
 ;; (electric-pair-mode 1)
